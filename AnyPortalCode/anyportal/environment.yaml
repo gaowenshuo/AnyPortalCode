@@ -1,0 +1,37 @@
+name: designcog
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch=2.4.1
+  - torchvision=0.13.1
+  - torchaudio=0.12.1
+  - cudatoolkit=11.6
+  - diffusers=0.30.3
+  - transformers=4.45.2
+  - xformers=0.0.28.post1
+  - opencv-python=4.10.0
+  - pillow=10.4.0
+  - scikit-image=0.21.0
+  - numpy=1.24
+  - scipy=1.10
+  - matplotlib=3.7
+  - jupyterlab=4.0
+  - ipywidgets=8.1
+  - tqdm=4.66
+  - wandb=0.18
+  - huggingface-hub=0.26
+  - packaging=24.1
+  - ninja=1.10
+
+  - pip:
+    - aiohttp==3.10.10
+    - controlnet-aux==0.0.9
+    - kornia==0.7.3
+    - timm==1.0.12
+    - triton==3.0.0
+    - protobuf==5.28.3
+    - sentencepiece==0.2.0
