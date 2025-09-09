@@ -1,0 +1,3 @@
+直接按照das的方法配置
+
+然后pip install av和sympy和controlnet-aux和omegaconf和hydra-core
