@@ -1,6 +1,0 @@
-0、在anyportal下面按照environment.yml配置环境
-1、在anyportal/src/ProPainter里安装https://github.com/sczhou/ProPainter，用我的代码替换原来的inference_propainter.py
-2、在anyportal/src/IC-Light/models里面下载iclight_sd15_fbc.safetensors和iclight_sd15_bc.safetensors，下载地址参见https://github.com/lllyasviel/IC-Light
-3、在一个新建的独立的das文件夹里安装https://github.com/IGL-HKUST/DiffusionAsShader，可以配置一个独立的环境，然后将我的das里面的几个.sh放进去，其它代码不用替换
-4、执行顺序：xxx part1.sh   ---》 das对应sh改一下输入路径和视频名 （输出的视频移动到output/（testname）bg.mp4） ---》 xxx part2.sh
-5、显存足够的时候，把anyportal/src/cogvideox-controlnet/controlnet_edit.py里面的显存优化（enable....offload之类的）关掉，可以加速(关掉之后要autocast成cuda和float16)
