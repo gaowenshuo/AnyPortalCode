@@ -1,4 +1,10 @@
-# AnyPortal
+# AnyPortal Code
+
+> ⚠️ **Note:**  
+> We apologize that this code is neither efficient nor user-friendly.  
+> A more optimized and convenient version will be released later.  
+> **Please avoid using this version unless absolutely necessary.**
+
 
 ## Installation
 
