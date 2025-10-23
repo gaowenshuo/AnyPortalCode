@@ -1,14 +1,12 @@
 # AnyPortal Code
 
 > ⚠️ **Note:**  
-> We apologize that this code is neither efficient nor user-friendly.  
-> A more optimized and convenient version will be released later.  
-> **Please avoid using this version unless absolutely necessary.**
+> We apologize that this code is in **developing version** and neither efficient nor user-friendly.  
+> We are cleaning our code and a more optimized and convenient version will be released later (before 2026.1.1).  
 > 
 > ⚠️ **注意：**  
-> 我们真诚的抱歉，本代码目前实现效率较低，使用起来也不够方便。  
-> 我们将在后续期刊拓展发布更加优化、易用的版本。  
-> **除非必要，请勿使用此版本。**
+> 我们真诚的抱歉，本代码目前为开发中版本，实现效率较低，使用起来也不够方便。  
+> 我们将在后续2026年1月1日之前发布更加优化、易用的版本。  
 
 
 ## Installation
