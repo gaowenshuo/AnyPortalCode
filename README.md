@@ -13,6 +13,12 @@ To address the critical challenge of foreground consistency, we propose a Refine
 ANYPORTAL is training-free and overcomes the challenges of achieving foreground consistency and temporally coherent relighting. 
 Experimental results demonstrate that ANYPORTAL achieves high-quality results on consumer-grade GPUs, offering a practical and efficient solution for video content creation and editing.*
 
+**Features**:<br>
+- **Zero-shot**: no training or fine-tuning required.
+- **Temporal consistency**: use pret-trained T2V model (CogVideoX) for temporal consistency.
+- **Harmonious illumination**: use pret-trained IC-Light for relighting.
+
+
 <img width="1620" height="658" alt="image" src="https://github.com/user-attachments/assets/84254042-4fbc-4e5f-a1e8-212519cb972b" />
 
 > ⚠️ **Note:**  
