@@ -1,4 +1,5 @@
-# AnyPortal Code
+# ANYPORTAL: Zero-Shot Consistent Video Background Replacement
+Wenshuo Gao, Xicheng Lan, Shuai Yang
 
 > ⚠️ **Note:**  
 > We apologize that this code is in **development version** and neither efficient nor user-friendly.  
@@ -8,6 +9,9 @@
 > 我们真诚的抱歉，本代码目前为**开发中版本**，实现效率较低，使用起来也不够方便。  
 > 我们将在后续2026年1月1日之前发布更加优化、易用的版本。  
 
+## Paper
+
+arxiv: https://arxiv.org/abs/2509.07472
 
 ## Installation
 
