@@ -1,7 +1,7 @@
 # AnyPortal Code
 
 > ⚠️ **Note:**  
-> We apologize that this code is in **developing version** and neither efficient nor user-friendly.  
+> We apologize that this code is in **development version** and neither efficient nor user-friendly.  
 > We are cleaning our code and a more optimized and convenient version will be released later (before 2026.1.1).  
 > 
 > ⚠️ **注意：**  
