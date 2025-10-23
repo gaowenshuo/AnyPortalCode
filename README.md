@@ -44,6 +44,19 @@ Experimental results demonstrate that ANYPORTAL achieves high-quality results on
 
 ## Inference
 
+```bash
+sh XXXX.sh
+```
+
+## Results
+
+### Text-Guided Background Replacement
+
+https://github.com/user-attachments/assets/1346ea27-87a5-41ee-8eaf-f96d288831b8
+
+### Image-Guided Background Replacement
+
+https://github.com/user-attachments/assets/ad14af81-0fdf-4e61-9603-4e466e528ba4
 
 ## Citation
 
