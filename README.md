@@ -16,13 +16,13 @@ Experimental results demonstrate that ANYPORTAL achieves high-quality results on
 <img width="1620" height="658" alt="image" src="https://github.com/user-attachments/assets/84254042-4fbc-4e5f-a1e8-212519cb972b" />
 
 > ⚠️ **Note:**  
-> We apologize that this code is in **development version** for easy debug and modification, which is neither efficient nor user-friendly.  
+> This code is in **development version** for easy debug and modification, which is neither efficient nor user-friendly.  
 > We are cleaning our code and a more optimized and convenient version will be released later (before 2026.1.1).  
 > 
 > ⚠️ **注意：**  
-> 我们真诚的抱歉，本代码目前为适于快速开发和debug的**开发版本**，实现效率较低，使用起来也不够方便。  
+> 本代码目前为适于快速开发和debug的**开发版本**，实现效率较低，使用起来也不够方便。  
 > 我们将在今年发布更加优化、易用的版本。
-> 
+
 ### TODO
 - [x] Clean the code for easy use
 - [x] Update readme
