@@ -5,7 +5,7 @@
 > We are cleaning our code and a more optimized and convenient version will be released later (before 2026.1.1).  
 > 
 > ⚠️ **注意：**  
-> 我们真诚的抱歉，本代码目前为开发中版本，实现效率较低，使用起来也不够方便。  
+> 我们真诚的抱歉，本代码目前为**开发中版本**，实现效率较低，使用起来也不够方便。  
 > 我们将在后续2026年1月1日之前发布更加优化、易用的版本。  
 
 
