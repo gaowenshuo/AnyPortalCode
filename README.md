@@ -13,15 +13,21 @@ To address the critical challenge of foreground consistency, we propose a Refine
 ANYPORTAL is training-free and overcomes the challenges of achieving foreground consistency and temporally coherent relighting. 
 Experimental results demonstrate that ANYPORTAL achieves high-quality results on consumer-grade GPUs, offering a practical and efficient solution for video content creation and editing.*
 
+<img width="1620" height="658" alt="image" src="https://github.com/user-attachments/assets/84254042-4fbc-4e5f-a1e8-212519cb972b" />
+
 > ⚠️ **Note:**  
 > We apologize that this code is in **development version** for easy debug and modification, which is neither efficient nor user-friendly.  
 > We are cleaning our code and a more optimized and convenient version will be released later (before 2026.1.1).  
 > 
 > ⚠️ **注意：**  
 > 我们真诚的抱歉，本代码目前为适于快速开发和debug的**开发版本**，实现效率较低，使用起来也不够方便。  
-> 我们将在今年发布更加优化、易用的版本。  
-
-
+> 我们将在今年发布更加优化、易用的版本。
+> 
+### TODO
+- [x] Clean the code for easy use
+- [x] Update readme
+- [x] ~~Upload paper to arXiv~~
+      
 ## Installation
 
 1. Install [DiffusionAsShader](https://github.com/IGL-HKUST/DiffusionAsShader) under  
@@ -35,3 +41,23 @@ Experimental results demonstrate that ANYPORTAL achieves high-quality results on
 
 4. Install [ProPainter](https://github.com/sczhou/ProPainter) and [MatAnyone](https://github.com/pq-yang/MatAnyone)  
    under `/src/ProPainter/` and `/src/MatAnyone/`, respectively.
+
+## Inference
+
+
+## Citation
+
+If you find this work useful for your research, please consider citing our paper:
+
+```bibtex
+@inproceedings{gao2025anyportal,
+ title = {ANYPORTAL: Zero-Shot Consistent Video Background Replacement},
+ author = {Gao, Wenshuo and Lan, Xicheng and Yang, Shuai},
+ booktitle = {ICCV},
+ year = {2025},
+}
+```
+
+## Acknowledgments
+
+The code is mainly developed based on [IC-Light](https://github.com/lllyasviel/IC-Light), [CogVideoX](https://github.com/zai-org/CogVideo), [DiffusionAsShader](https://github.com/IGL-HKUST/DiffusionAsShader), [ProPainter](https://github.com/sczhou/ProPainter) and [MatAnyone](https://github.com/pq-yang/MatAnyone).
