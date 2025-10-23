@@ -12,12 +12,12 @@ prompt="A man with a hat is talking on a beach near a sea with waves. The golden
 prompt2="A beach near a sea with waves.The golden sun shines on the sea and the sky is orange with beautiful clouds."
 
 # preprocess the input video
-#python src/preprocess.py --input_path="./input/${video_name}.mp4"
+python src/preprocess.py --input_path="./input/${video_name}.mp4"
 
 # prepare optical flow
-#python src/getmask.py --input_path="./input/${video_name}_preprocessed" --output_path="./input/${video_name}_preprocessed_mask"
-#python src/MatAnyone/inference_matanyone.py -i="./input/${video_name}_preprocessed.mp4" -m="./input/${video_name}_preprocessed_mask/mask_000.png" -o="./input/${video_name}_preprocessed_mask_mat" -c="./src/MatAnyone/pretrained_models/matanyone.pth" --save_image
-#python src/ProPainter/inference_propainter.py --video="./input/${video_name}_preprocessed.mp4" --mask="./input/${video_name}_preprocessed_mask_mat/${video_name}_preprocessed/pha" --output="./input/${video_name}_preprocessed_inpaint_mat" --height=480 --width=720 --fp16 --save_frames --mask_dilation=1
+python src/getmask.py --input_path="./input/${video_name}_preprocessed" --output_path="./input/${video_name}_preprocessed_mask"
+python src/MatAnyone/inference_matanyone.py -i="./input/${video_name}_preprocessed.mp4" -m="./input/${video_name}_preprocessed_mask/mask_000.png" -o="./input/${video_name}_preprocessed_mask_mat" -c="./src/MatAnyone/pretrained_models/matanyone.pth" --save_image
+python src/ProPainter/inference_propainter.py --video="./input/${video_name}_preprocessed.mp4" --mask="./input/${video_name}_preprocessed_mask_mat/${video_name}_preprocessed/pha" --output="./input/${video_name}_preprocessed_inpaint_mat" --height=480 --width=720 --fp16 --save_frames --mask_dilation=1
 
 # prepare first frame
 python src/IC-Light/video_gen_new.py --input_fg_path="./input/${video_name}_preprocessed.mp4" --input_bg_path="./input/${video_name}_preprocessed.mp4" --output_path="./output/${test_name}icic.mp4" --prompt="${prompt}" --mix_bg --only_first_frame --using_existing_mask="./input/${video_name}_preprocessed_mask_mat/${video_name}_preprocessed_pha.mp4"
