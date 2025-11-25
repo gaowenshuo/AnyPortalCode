@@ -23,11 +23,11 @@ Experimental results demonstrate that ANYPORTAL achieves high-quality results on
 
 > ⚠️ **Note:**  
 > This code is in **development version** for easy debug and modification, which is neither efficient nor user-friendly.  
-> We are cleaning our code and a more optimized and convenient version will be released later (before 2026.1.1).  
+> We are cleaning our code and a more optimized and convenient version will be released later. Before that, we recommend to use our newest work FlowPortal here:  https://github.com/gaowenshuo/FlowPortalRelease. 
 > 
 > ⚠️ **注意：**  
 > 本代码目前为适于快速开发和debug的**开发版本**，实现效率较低，使用起来也不够方便。  
-> 我们将在今年发布更加优化、易用的版本。
+> 我们将发布更加优化、易用的版本。在此之前，建议使用我们最新的工作FlowPortal：https://github.com/gaowenshuo/FlowPortalRelease
 
 ### TODO
 - [x] Clean the code for easy use
